@@ -413,9 +413,9 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('Foreign Language Camp  is sitting in the restaurant')
+    res.send('summer season running')
 })
 
 app.listen(port, () => {
-    console.log(`Foreign Language Camp is sitting in the port ${port}`)
+    console.log(`summer season running is sitting in the port ${port}`)
 })
